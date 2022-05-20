@@ -1,0 +1,57 @@
+.backButton {
+    display: block;
+    text-align: center;
+    align-items: center;
+    background-color: var(--items-background);
+    color: rgb(78, 78, 78);
+    font-size: 2rem;
+    width: 10rem;
+    padding-top: 0.55rem;
+    border-radius: 0.5rem;
+    border: none;
+    height: 4.3rem;
+    margin: 10rem;
+    margin-bottom: 7rem;
+    box-shadow: var(--shadow);
+}
+
+i.fa.fa-arrow-left {
+    position: relative;
+    bottom: 0.1rem;
+    color: rgb(78, 78, 78);
+    font-size: 1.5rem;
+    padding-bottom: 20rem;
+    margin: 1rem 0.8rem 2rem 0rem;
+}
+
+.details {
+    color: var(--text-primary);
+    display: flex;
+}
+
+.detailsFlag {
+    position: relative;
+    display: inline;
+    margin-left: 10rem;
+    width: 50rem;
+    height: 40rem;
+    box-shadow: var(--shadow);
+}
+
+.detailsCountryInfo {
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.detailsCountryName {
+    height: 6rem;
+    padding-bottom: 7rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.countryDetail {
+    padding-bottom: 0.2rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
